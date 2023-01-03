@@ -18,7 +18,7 @@ jobs:
 
       - name: Deploy to Firebase Hosting Preview Channel
         env:
-          GCP_SA_KEY: ${{ secrets.HIKERS_SOCIAL_FIREBASE_SERVICE_ACCOUNT }}
+          GCP_SA_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SUB_ZERO_ULTIMATE }}
           GITHUB_PR: ${{ github.event.pull_request.number }}
         run: |
           # Install Firebase Tools
