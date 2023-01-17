@@ -1,6 +1,6 @@
 .btn-primary {
   color: white;
-  background-color:rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.15);
   border-color: rgba(27, 31, 36, 0.15);
   box-shadow: 0 1px 0 rgba(27, 31, 36, 0.1),
     inset 0 1px 0 rgba(255, 255, 255, 0.03);
@@ -65,4 +65,49 @@ ul.social li a::before {
 }
 ul.social li a:hover::before {
   transform: skewX(45deg) translateX(-150px);
+}
+
+.tryouts-container {
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: left;
+  padding: 20px;
+  font-size: medium;
+}
+
+.roster-container {
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+  font-size: medium;
+}
+
+.schedule-container {
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: left;
+  padding: 20px;
+  font-size: medium;
+}
+
+.sponsors-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  font-size: medium;
+}
+
+.flex-child {
+  margin: auto;
+  flex: 1;
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+
+.flex-child-caption {
+  text-align: left;
+}
+
+.flex-child-image {
+  margin-right: 20px;
 }
